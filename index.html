@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-        <title>Monochrome Music</title>
+        <title>Seachrome Music</title>
         <link rel="canonical" href="https://monochrome.tf/" />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#1d4ed8" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <base href="/" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Monochrome" />
+        <meta name="apple-mobile-web-app-title" content="Seachrome" />
         <meta name="description" content="A minimalist music streaming application" />
 
         <!-- Preconnect to critical third-party origins -->
@@ -31,6 +31,21 @@
         />
       <script type="76e3b03515b379b1a7bf74c2-module" crossorigin src="./assets/index-CQr--9fV.js"></script>
       <link rel="stylesheet" crossorigin href="./assets/index-DM2xrEq9.css">
+    
+        <style>
+            :root {
+                --background: #0b1220 !important;
+                --foreground: #dbeafe !important;
+                --card: #111827 !important;
+                --muted: #1e3a8a !important;
+                --muted-foreground: #93c5fd !important;
+                --primary: #3b82f6 !important;
+                --secondary: #1d4ed8 !important;
+                --border: #2563eb !important;
+                --accent: #60a5fa !important;
+            }
+        </style>
+
     </head>
 
     <body>
@@ -967,7 +982,7 @@
                 <div class="missing-tracks-content">
                     <p>
                         Unfortunately, some songs weren't able to be added. This could be an issue with our import
-                        system - try searching for the song and adding it. It could also be due to Monochrome not having
+                        system - try searching for the song and adding it. It could also be due to Seachrome not having
                         the song :(
                     </p>
                     <div class="missing-tracks-list">
@@ -1274,7 +1289,7 @@
                                 placeholder="https://example.com"
                             />
                             <p style="font-size: 0.8rem; color: var(--muted-foreground); margin-top: 0.25rem">
-                                It is recommended to create a Monochrome profile instead.
+                                It is recommended to create a Seachrome profile instead.
                             </p>
                         </div>
                         <div style="margin-bottom: 1rem">
@@ -1437,7 +1452,7 @@
             <div class="modal-overlay"></div>
             <div class="modal-content">
                 <h3>Update Available</h3>
-                <p>A new version of Monochrome is available.</p>
+                <p>A new version of Seachrome is available.</p>
                 <div
                     id="desktop-update-notes"
                     style="
@@ -1528,7 +1543,7 @@
                     <div class="sidebar-logo">
                         <a href="https://monochrome.tf/" class="sidebar-logo-link">
                             <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" class="app-logo app-logo" viewBox="14.75 14.75 70.5 70.5"><path fill="currentColor" d="M38.25 14.75h47v47h-23.5v-23.5h-23.5Zm-23.5 23.5h23.5v23.5h23.5v23.5h-47Z"/></svg>
-                            <span>Monochrome</span>
+                            <span>Seachrome</span>
                         </a>
                         <button
                             id="sidebar-toggle"
@@ -1589,18 +1604,6 @@
                         <div class="sidebar-nav-bottom">
                             <nav class="sidebar-nav bottom">
                                 <ul>
-                                    <li class="nav-item" id="sidebar-nav-about-bottom">
-                                        <a href="/about">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-                                            <span>About</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item" id="sidebar-nav-discordbtn">
-                                        <a href="discord.html" target="_blank">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" preserveAspectRatio="xMidYMid" viewBox="0 -28.5 256 256"><path fill="#8e8e96" d="M216.856 16.597A208.5 208.5 0 0 0 164.042 0c-2.275 4.113-4.933 9.645-6.766 14.046q-29.538-4.442-58.533 0c-1.832-4.4-4.55-9.933-6.846-14.046a207.8 207.8 0 0 0-52.855 16.638C5.618 67.147-3.443 116.4 1.087 164.956c22.169 16.555 43.653 26.612 64.775 33.193A161 161 0 0 0 79.735 175.3a136.4 136.4 0 0 1-21.846-10.632 109 109 0 0 0 5.356-4.237c42.122 19.702 87.89 19.702 129.51 0a132 132 0 0 0 5.355 4.237 136 136 0 0 1-21.886 10.653c4.006 8.02 8.638 15.67 13.873 22.848 21.142-6.58 42.646-16.637 64.815-33.213 5.316-56.288-9.08-105.09-38.056-148.36M85.474 135.095c-12.645 0-23.015-11.805-23.015-26.18s10.149-26.2 23.015-26.2 23.236 11.804 23.015 26.2c.02 14.375-10.148 26.18-23.015 26.18m85.051 0c-12.645 0-23.014-11.805-23.014-26.18s10.148-26.2 23.014-26.2c12.867 0 23.236 11.804 23.015 26.2 0 14.375-10.148 26.18-23.015 26.18"/></svg>
-                                            <span>Discord</span>
-                                        </a>
-                                    </li>
                                     <li class="nav-item" id="sidebar-nav-githubbtn" style="display: none">
                                         <a href="https://github.com/monochrome-music/monochrome" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
@@ -1684,7 +1687,7 @@
 
                     <div id="home-view-for-you" class="home-view active">
                         <div id="home-welcome" style="display: none; text-align: center; padding: 4rem 2rem">
-                            <h2 style="margin-bottom: 1rem">Welcome to Monochrome</h2>
+                            <h2 style="margin-bottom: 1rem">Welcome to Seachrome</h2>
                             <p style="color: var(--muted-foreground)">
                                 You haven't listened to anything yet. Search for your favorite songs to get started!
                             </p>
@@ -2509,7 +2512,7 @@
                         <div class="profile-info-section">
                             <img id="profile-avatar" src="./assets/appicon.png" class="profile-avatar" alt="Avatar" />
                             <div class="profile-details">
-                                <h1 id="profile-display-name">User</h1>
+                                <h1 id="profile-display-name"></h1>
                                 <div id="profile-username" class="profile-username">@username</div>
                                 <div id="profile-status" class="profile-status" style="display: none"></div>
                                 <div id="profile-about" class="profile-about"></div>
@@ -2614,7 +2617,6 @@
                                 <div class="theme-picker" id="theme-picker">
                                     <div class="theme-option" data-theme="system">System</div>
                                     <div class="theme-option" data-theme="monochrome">Black</div>
-                                    <div class="theme-option" data-theme="white">White</div>
                                     <div class="theme-option" data-theme="dark">Dark</div>
                                     <div class="theme-option" data-theme="ocean">Ocean</div>
                                     <div class="theme-option" data-theme="purple">Purple</div>
@@ -3161,30 +3163,6 @@
                                 </div>
                                 <div class="sidebar-settings-section sidebar-settings-bottom">
                                     <span class="sidebar-settings-section-label">BOTTOM SECTION</span>
-                                    <div class="setting-item">
-                                        <div class="info">
-                                            <span class="label">Show About in Sidebar</span>
-                                            <span class="description"
-                                                >Display the About link in the sidebar navigation</span
-                                            >
-                                        </div>
-                                        <label class="toggle-switch">
-                                            <input type="checkbox" id="sidebar-show-about-bottom-toggle" checked />
-                                            <span class="slider"></span>
-                                        </label>
-                                    </div>
-                                    <div class="setting-item">
-                                        <div class="info">
-                                            <span class="label">Show Discord in Sidebar</span>
-                                            <span class="description"
-                                                >Display the Discord link in the sidebar navigation</span
-                                            >
-                                        </div>
-                                        <label class="toggle-switch">
-                                            <input type="checkbox" id="sidebar-show-discordbtn-toggle" checked />
-                                            <span class="slider"></span>
-                                        </label>
-                                    </div>
                                     <div class="setting-item">
                                         <div class="info">
                                             <span class="label">Show GitHub in Sidebar</span>
@@ -4504,18 +4482,18 @@
                 </div>
 
                 <div id="page-about" class="page">
-                    <h2 class="section-title" style="text-align: center">About Monochrome</h2>
+                    <h2 class="section-title" style="text-align: center">About Seachrome</h2>
                     <div class="about-content">
                         <p class="about-description">
-                            Monochrome is a lightweight, privacy-focused music streaming client designed for
+                            Seachrome is a lightweight, privacy-focused music streaming client designed for
                             high-fidelity audio playback. Built with modern web technologies, it provides a clean,
                             distraction-free listening experience.
                             <br />
                         </p>
                         <div class="about-donate">
-                            <h2 class="section-title" style="text-align: center">Support Monochrome</h2>
+                            <h2 class="section-title" style="text-align: center">Support Seachrome</h2>
                             <p style="text-align: center" class="donate-description">
-                                If Monochrome has been useful to you and you're able to, consider making a donation.
+                                If Seachrome has been useful to you and you're able to, consider making a donation.
                                 <br />
                                 It helps pay for the server and domain, and you get to support us :)
                             </p>
@@ -4545,7 +4523,7 @@
                                         gap: 0.5rem;
                                     "
                                 >
-                                    Donate to Monochrome
+                                    Donate to Seachrome
                                 </a>
                                 <a
                                     href="https://github.com/monochrome-music/monochrome"
@@ -4608,7 +4586,6 @@
                         >
                             <button id="auth-connect-btn" class="btn-secondary">Connect with Google</button>
                             <button id="auth-github-btn" class="btn-secondary">Connect with GitHub</button>
-                            <button id="auth-discord-btn" class="btn-secondary">Connect with Discord</button>
                             <button id="toggle-email-auth-btn" class="btn-secondary">Connect with Email</button>
                             <button id="view-my-profile-btn" class="btn-secondary" style="display: none">
                                 View My Profile
@@ -4646,9 +4623,9 @@
                 </div>
                 <div id="page-donate" class="page">
                     <div style="text-align: center; padding: 2rem; max-width: 500px; margin: 0 auto">
-                        <h2 class="section-title" style="margin-bottom: 1.5rem">Support Monochrome</h2>
+                        <h2 class="section-title" style="margin-bottom: 1.5rem">Support Seachrome</h2>
                         <p style="margin-bottom: 1.5rem; line-height: 1.6; color: var(--muted-foreground)">
-                            If Monochrome has been useful to you and you're able to, consider making a donation. It
+                            If Seachrome has been useful to you and you're able to, consider making a donation. It
                             helps pay for the server and domain, and you get to support us :)
                         </p>
                         <a
